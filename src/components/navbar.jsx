@@ -119,13 +119,13 @@ import OpenSource from "../images/icon/open-source.png";
                                   <div class="tabpane1 active tab1" id="tab1-v1">
                                     <ul class="border-right">
                                       <li class="span-text">
-                                        <Link  to="dataManagment.html">
+                                        <Link  to="/dataManagment">
                                           <img src={Infrastructure} />
                                           <span>Data Management</span>
                                         </Link> 
                                       </li>
                                       <li class="span-text">
-                                        <Link  to="dataIntegration.html">
+                                        <Link  to="/dataIntegration">
                                           <img src={Descriptor} />
                                           <span>
                                             Data Integration and Virtualization
@@ -133,13 +133,14 @@ import OpenSource from "../images/icon/open-source.png";
                                         </Link> 
                                       </li>
                                       <li class="span-text">
-                                        <Link  to="dataReport.html">
+                                        <Link  to="/dataReport">
                                           <img src={StoryTelling} />
                                           <span>Data Story Telling</span>
                                         </Link> 
                                       </li>
                                       <li class="span-text">
-                                        <Link  to="openSource.html"> <img src={OpenSource} />
+                                        <Link  to="/openSource"> 
+                                        <img src={OpenSource} />
                                           <span>Open Source</span>
                                         </Link> 
                                       </li>
@@ -149,24 +150,24 @@ import OpenSource from "../images/icon/open-source.png";
                                   <div class="tabpane1" id="tab2-v2">
                                     <ul class="border-right">
                                       <li class="span-text">
-                                        <Link  to="digitalTechnologies.html"> <img src={Webinar} />
+                                        <Link  to="/digitalTechnologies"> <img src={Webinar} />
                                           <span>Digitalization</span>
                                         </Link> 
                                       </li>
                                       <li class="span-text">
-                                        <Link  to="dataWarehouse.html">
+                                        <Link  to="/dataWarehouse">
                                           <img src={BigData} />
                                           <span>Data Warehouse & Data Lakes</span>
                                         </Link> 
                                       </li>
                                       <li class="span-text">
-                                        <Link  to="cloudTechnologies.html">
+                                        <Link  to="/cloudTechnologies">
                                           <img src={Cloud} />
                                           <span>Cloud Technologies</span>
                                         </Link> 
                                       </li>
                                       <li class="span-text">
-                                        <Link  to="mobileTechnologies.html"><img src={SocialMedia} />
+                                        <Link  to="/mobileTechnologies"><img src={SocialMedia} />
                                           <span>Mobile Technologies</span>
                                         </Link> 
                                       </li>
