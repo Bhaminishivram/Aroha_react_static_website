@@ -18,6 +18,9 @@ import Digitalization from './components/digitalization';
 import DataWareHouse from './components/datawarehouse';
 import CloudTechnologies from './components/cloudtechnologies';
 import MobileTechnologies from './components/mobileTechnologies';
+import Consulting_services from './components/consulting_services';
+import Knowledge_Services from './components/knowledge_Services';
+import Project_Service from './components/projectService';
 
 function App() {
   return (
@@ -28,10 +31,10 @@ function App() {
 
         <Switch> 
       
-        <Route path="/aboutLearning" component={AboutLearning360} /> 
-        <Route path="/appsinlearning" component={AppsInPlatform} />
-        <Route path="/aboutMy360" component={ AboutMy360} /> 
-        <Route path="/salesAnalytics" component={SalesAnalytics} />
+       <Route path="/aboutLearning" component={AboutLearning360} /> 
+       <Route path="/appsinlearning" component={AppsInPlatform} />
+       <Route path="/aboutMy360" component={ AboutMy360} /> 
+       <Route path="/salesAnalytics" component={SalesAnalytics} />
        <Route path="/financialAnalytics" component={Cashflowanalytics} />  
        <Route path="/dataManagment" component={DataManagment}/> 
        <Route path="/dataIntegration" component={ DataIntegration} /> 
@@ -40,7 +43,11 @@ function App() {
        <Route path="/digitalTechnologies" component={Digitalization} />   
        <Route path="/dataWarehouse" component={DataWareHouse} />  
        <Route path="/cloudTechnologies" component={CloudTechnologies} />
-      <Route path="/mobileTechnologies" component={MobileTechnologies}/> 
+       <Route path="/mobileTechnologies" component={MobileTechnologies}/>  
+       <Route path="/consulting" component={Consulting_services} />
+       <Route path="/knowledge" component={ Knowledge_Services}/> 
+       <Route path="/projectService" component={Project_Service} /> 
+
 
        <Route path="/home" component={Homepage} />
        <Homepage/>

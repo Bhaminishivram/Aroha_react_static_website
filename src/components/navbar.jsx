@@ -188,17 +188,17 @@ import OpenSource from "../images/icon/open-source.png";
                             <div class="col-md-12 col-sm-10 padding1">
                               <ul class="border-right">
                                 <li class="span-text">
-                                  <Link  to="consulting.html"> <img src={CustomerService} />
+                                  <Link  to="/consulting"> <img src={CustomerService} />
                                     <span>Consulting Services</span>
                                   </Link> 
                                 </li>
                                 <li class="span-text">
-                                  <Link  to="knowledge.html"><img src={Thought} />
+                                  <Link  to="/knowledge"><img src={Thought} />
                                     <span>Knowledge Services</span>
                                   </Link> 
                                 </li>
                                 <li class="span-text">
-                                  <Link  to="projectService.html"> <img src={Managed} />
+                                  <Link  to="/projectService"> <img src={Managed} />
                                     <span>Managed Services</span>
                                   </Link> 
                                 </li>
