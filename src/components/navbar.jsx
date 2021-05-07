@@ -218,23 +218,23 @@ import OpenSource from "../images/icon/open-source.png";
                                 </div>
                                 <ul class="mega-menu-sub">
                                   <li>
-                                    <Link  to="blog-EltActivity.html">
+                                    <Link  to="/blog-EltActivity">
                                       Top 10 ETL Activities in DW Projects
                                     </Link> 
                                   </li>
                                   <li>
-                                    <Link  to="blog-storytelling.html">
+                                    <Link  to="/blog-storytelling">
                                       Finding Story / 360 in Data sets
                                     </Link> 
                                   </li>
                                   <li>
-                                    <Link  to="blog-platform.html">
+                                    <Link  to="/blog-platform">
                                       Importance of Analytics Platform for Small
                                       Business
                                     </Link> 
                                   </li>
                                   <li>
-                                    <Link  to="blog.html" class="resources_data">
+                                    <Link  to="/blog" class="resources_data">
                                       See more blogs
                                     </Link> 
                                   </li>
@@ -246,7 +246,7 @@ import OpenSource from "../images/icon/open-source.png";
                                 </div>
                                 <ul class="mega-menu-sub">
                                   <li>
-                                    <Link  to="books.html">
+                                    <Link  to="/books">
                                       ABC dataWarehousing
                                     </Link> 
                                   </li>
@@ -313,7 +313,7 @@ import OpenSource from "../images/icon/open-source.png";
                         </li>
   
                         <li>
-                          <Link  to="contact.html">Contact</Link> 
+                          <Link  to="/contact">Contact</Link> 
                         </li>
                       </ul>
                     </nav>

@@ -21,7 +21,13 @@ import MobileTechnologies from './components/mobileTechnologies';
 import Consulting_services from './components/consulting_services';
 import Knowledge_Services from './components/knowledge_Services';
 import Project_Service from './components/projectService';
-
+import Blog_EltActivity from './components/blog-EltActivity';
+import Blog_Storytelling from './components/blog-storytelling';
+import Blog_Platform from './components/blog_platform';
+import Blog from './components/blog';
+import Contact from './components/contact';
+import Books from './components/books';
+import Books1 from './components/books1';
 function App() {
   return (
     <React.Fragment>
@@ -46,9 +52,15 @@ function App() {
        <Route path="/mobileTechnologies" component={MobileTechnologies}/>  
        <Route path="/consulting" component={Consulting_services} />
        <Route path="/knowledge" component={ Knowledge_Services}/> 
-       <Route path="/projectService" component={Project_Service} /> 
+       <Route path="/projectService" component={Project_Service} />   
+       <Route path="/blog-EltActivity" component={Blog_EltActivity}/> 
+       <Route path="/blog-storytelling" component={Blog_Storytelling} />
+       <Route path="/blog-platform" component={ Blog_Platform} /> 
+       <Route path="/blog" component={Blog} /> 
+      <Route path="/books" component={Books}/> 
+      <Route path="/books1" component={Books1}/>
 
-
+       <Route path="/contact" component={Contact}/>
        <Route path="/home" component={Homepage} />
        <Homepage/>
        
