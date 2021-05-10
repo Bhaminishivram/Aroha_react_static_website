@@ -1,18 +1,14 @@
 import ReactDOM from 'react-dom';
-import App from './App';
+import React from 'react';
+import App from './App.js';
 import reportWebVitals from './reportWebVitals';
-import React, { Component } from 'react';
 import {BrowserRouter} from 'react-router-dom';
 
-
 ReactDOM.render(
-  
-  <BrowserRouter>
-  <App />
+<BrowserRouter> 
+ <App /> 
  </BrowserRouter>,
-  
-  document.getElementById('root')
-);
+ document.getElementById('root') );
 
 reportWebVitals();
 

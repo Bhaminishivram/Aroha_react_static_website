@@ -289,7 +289,7 @@ import OpenSource from "../images/icon/open-source.png";
                                 </div>
                                 <ul class="mega-menu-sub">
                                   <li>
-                                    <Link  to="/career">.NET Developer</Link> 
+                                    <Link to="/career">.NET Developer</Link> 
                                   </li>
                                   <li>
                                     <Link  to="/career1">
@@ -302,7 +302,7 @@ import OpenSource from "../images/icon/open-source.png";
                                     </Link> 
                                   </li>
                                   <li>
-                                    <Link  to="positions.html" class="resources_data" >
+                                    <Link  to="/positions" class="resources_data" >
                                       See All Positions
                                     </Link> 
                                   </li>
@@ -313,7 +313,7 @@ import OpenSource from "../images/icon/open-source.png";
                         </li>
   
                         <li>
-                          <Link  to="/contact">Contact</Link> 
+                          <Link to="/contact">Contact</Link> 
                         </li>
                       </ul>
                     </nav>

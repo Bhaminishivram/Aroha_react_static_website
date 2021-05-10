@@ -1,12 +1,11 @@
-import React from 'react'; 
+import React from 'react';  
+
 const Positions = () => {
     return (  
         <div id="site-content">
            
         <div id="page-body">
-          
-
-            <div class="flat-row pad-top60px pad-bottom60px parallax">
+           <div class="flat-row pad-top60px pad-bottom60px parallax">
                 <div class="container">
                     <div class="row">
                         <h1 class="values text-center">Open Positions</h1>
@@ -86,7 +85,7 @@ const Positions = () => {
                                 <li>Knowledge of Azure services</li>
                                 <li>Excellent Communication Skills</li>
                                 <li>Ability to work in a team</li>
-                            </ol><br>
+                            </ol><br/>
                             <strong>Technical Skills::</strong><p>SQL, T-SQL, SSIS, SSRS, SSAS, Azure</p>
                             <strong>Experience:</strong><p>(No. Of years)3 to 6 Years</p>
                             </div>

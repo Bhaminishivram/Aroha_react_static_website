@@ -23,7 +23,6 @@ import Knowledge_Services from './components/knowledge_Services';
 import Project_Service from './components/projectService';
 import Blog_EltActivity from './components/blog-EltActivity';
 import Blog_Storytelling from './components/blog-storytelling';
-import Blog_Platform from './components/blog_platform';
 import Blog from './components/blog';
 import Contact from './components/contact';
 import Books from './components/books';
@@ -33,7 +32,23 @@ import Culture from './components/culture';
 import Team from './components/team'; 
 import Career from './components/career';
 import Career2 from './components/career2';
-import Career1 from './components/career1';
+import Career1 from './components/career1'; 
+import Positions from './components/positions'; 
+import Blog_DataCitizen from './components/blog-datacitizen';
+import Blog_platform from './components/blog-platform';
+import Blog_Conversational from './components/blog_conversational';
+import Blog_datamoderization from './components/blog-datamoderization';
+import Blog_database from './components/blog-database';
+import Blog_visulization from './components/blog-visulization';
+import Blog_single from './components/blog-single';
+import Blog_culture from './components/blog-culture';
+import Blog_dataScience from './components/blog-dataScience';
+import Blog_datalayer from './components/blog-datalayer';
+import Blog_rio from './components/blog-rio';
+import Blog_insight from './components/blog-insight';
+import Blog_business from './components/blog-business';
+
+
 function App() {
   return (
     <React.Fragment>
@@ -61,7 +76,6 @@ function App() {
        <Route path="/projectService" component={Project_Service} />   
        <Route path="/blog-EltActivity" component={Blog_EltActivity}/> 
        <Route path="/blog-storytelling" component={Blog_Storytelling} />
-       <Route path="/blog-platform" component={ Blog_Platform} /> 
        <Route path="/blog" component={Blog} /> 
        <Route path="/books" component={Books}/> 
        <Route path="/books1" component={Books1}/> 
@@ -70,25 +84,30 @@ function App() {
        <Route path="/team" component={Team}/> 
        <Route path="/career" component={Career} /> 
        <Route path="/career1" component={Career1} />
-       <Route path="/career2" component={Career2} />
+       <Route path="/career2" component={Career2} /> 
+       <Route path="/positions" component={Positions} /> 
+       <Route path="/blog-datacitizen" component={Blog_DataCitizen}/> 
+       <Route path="/blog-platform" component={Blog_platform}/> 
+       <Route path="/blog-conversational" component={Blog_Conversational} />
+       <Route path="/blog-datamoderization" component={Blog_datamoderization} /> 
+       <Route path="/blog-database" component={Blog_database} />  
+       <Route path="/blog-visulization" component={Blog_visulization} />  
+       <Route path="/blog-single" component={Blog_single} />
+       <Route path="/blog-culture" component={Blog_culture}/>
+       <Route path="/blog-dataScience" component={Blog_dataScience}/>  
+       <Route path="/blog-datalayer" component={Blog_datalayer} /> 
+       <Route path="/blog-rio" component={Blog_rio}/> 
+       <Route path="/blog-insight" component={Blog_insight} /> 
+       <Route path="/blog-business" component={Blog_business} /> 
 
        <Route path="/contact" component={Contact}/>
        <Route path="/home" component={Homepage} />
        <Homepage/>
        
-
-          
-
-         
-
-        </Switch> 
-
-      </main>
-
-
-      <Footer />
-
-    </React.Fragment>
+     </Switch> 
+ </main>
+     <Footer />
+</React.Fragment>
   );
 }
 

@@ -1,4 +1,5 @@
-import React from 'react'; 
+import React from 'react';  
+import {Link} from 'react-router-dom';
 const Blog_Storytelling = () => {
     return ( 
           <div>
@@ -14,7 +15,7 @@ const Blog_Storytelling = () => {
                             <h2 class="trail-browse">You are here:</h2>
                             <ul class="trail-items">
                                 <li class="trail-item trail-begin">Blog Details</li>
-                                <li class="trail-item trail-end"><a href="blog.html">/Back</a></li>
+                                <li class="trail-item trail-end"><Link to="/blog">/Back</Link></li>
                             </ul>
                         </nav>           
                     </div>
@@ -30,17 +31,17 @@ const Blog_Storytelling = () => {
                             <article class="post">
                                 <div class="entry-wrapper">
                                     <div class="entry-cover">
-                                        <a href="blog-business.html">
+                                        <Link to="/blog-business">
                                             <img src="images/blog/10.png" alt="images"/>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div class="entry-header">
                                         <span class="entry-time">April 15, 2020</span>
                                         <h2 class="entry-title">Finding Story / 360 in Data sets</h2>
                                         <div class="entry-meta">
                                             <span>By</span>
-                                            <span class="entry-categories"><a href="#">Rajesh Kumar Shanmugam</a></span>
-                                            <span class="entry-comments-link"><a href="#">3</a></span>
+                                            <span class="entry-categories"><Link to="#">Rajesh Kumar Shanmugam</Link></span>
+                                            <span class="entry-comments-link"><Link to="#">3</Link></span>
                                         </div>
                                     </div>                                      
                                     <div class="entry-content">

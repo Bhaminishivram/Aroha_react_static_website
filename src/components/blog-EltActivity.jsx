@@ -1,4 +1,5 @@
-import React from 'react'; 
+import React from 'react';  
+import {Link} from 'react-router-dom';
 const Blog_EltActivity = () => {
     return ( 
     
@@ -15,7 +16,7 @@ const Blog_EltActivity = () => {
                                 <h2 class="trail-browse">You are here:</h2>
                                 <ul class="trail-items">
                                     <li class="trail-item trail-begin">Blog Details</li>
-                                    <li class="trail-item trail-end"><a href="blog.html">/Back</a></li>
+                                    <li class="trail-item trail-end"><Link to="/blog">/Back</Link></li>
                                 </ul>
                             </nav>           
                         </div>
@@ -40,8 +41,8 @@ const Blog_EltActivity = () => {
                                             <h2 class="entry-title">Top 10 ETL Activities in DW Projects</h2>
                                             <div class="entry-meta">
                                                 <span>By</span>
-                                                <span class="entry-categories"><a href="#">Rajesh Kumar Shanmugam</a></span>
-                                                <span class="entry-comments-link"><a href="#">3</a></span>
+                                                <span class="entry-categories"><Link to="#">Rajesh Kumar Shanmugam</Link></span>
+                                                <span class="entry-comments-link"><Link to="#">3</Link></span>
                                             </div>
                                         </div>                                       
                                         <div class="entry-content">
@@ -57,7 +58,8 @@ const Blog_EltActivity = () => {
                                                  structure of the data you are getting. If the source in NOSQL Db, then understand the basics 
                                                  of how to retrieve the information</p>
                                             <p class="box-readmore ">
-                                                <a href="https://www.linkedin.com/pulse/top-10-etl-activities-dw-projects-rajesh-shanmugam/?trackingId=oNJTNck9RNJ%2F46O9z1w0MA%3D%3D" class="text-left" target="blank">Read More</a>
+                                                <a href="https://www.linkedin.com/pulse/top-10-etl-activities-dw-projects-rajesh-
+                                                shanmugam/?trackingId=oNJTNck9RNJ%2F46O9z1w0MA%3D%3D" class="text-left" target="blank">Read More</a>
                                             </p>
                                         </div>
                                     </div>
