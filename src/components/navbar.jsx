@@ -251,7 +251,7 @@ import OpenSource from "../images/icon/open-source.png";
                                     </Link> 
                                   </li>
                                   <li>
-                                    <Link  to="books1.html">
+                                    <Link  to="/books1">
                                       Retail 101 Glossary
                                     </Link> 
                                   </li>
@@ -273,13 +273,13 @@ import OpenSource from "../images/icon/open-source.png";
                                 </div>
                                 <ul class="mega-menu-sub">
                                   <li>
-                                    <Link  to="approach.html">Our Approach</Link> 
+                                    <Link  to="/approach">Our Approach</Link> 
                                   </li>
                                   <li>
-                                    <Link  to="culture.html">Our Culture</Link> 
+                                    <Link  to="/culture">Our Culture</Link> 
                                   </li>
                                   <li>
-                                    <Link  to="team.html">Our Team</Link> 
+                                    <Link  to="/team">Our Team</Link> 
                                   </li>
                                 </ul>
                               </div>
@@ -289,15 +289,15 @@ import OpenSource from "../images/icon/open-source.png";
                                 </div>
                                 <ul class="mega-menu-sub">
                                   <li>
-                                    <Link  to="career.html">.NET Developer</Link> 
+                                    <Link  to="/career">.NET Developer</Link> 
                                   </li>
                                   <li>
-                                    <Link  to="career1.html">
+                                    <Link  to="/career1">
                                       Angular Developer
                                     </Link> 
                                   </li>
                                   <li>
-                                    <Link  to="career2.html">
+                                    <Link  to="/career2">
                                       MSBI Developer
                                     </Link> 
                                   </li>

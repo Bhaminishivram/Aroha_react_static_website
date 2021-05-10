@@ -28,6 +28,12 @@ import Blog from './components/blog';
 import Contact from './components/contact';
 import Books from './components/books';
 import Books1 from './components/books1';
+import Approach from './components/approach';
+import Culture from './components/culture'; 
+import Team from './components/team'; 
+import Career from './components/career';
+import Career2 from './components/career2';
+import Career1 from './components/career1';
 function App() {
   return (
     <React.Fragment>
@@ -57,8 +63,14 @@ function App() {
        <Route path="/blog-storytelling" component={Blog_Storytelling} />
        <Route path="/blog-platform" component={ Blog_Platform} /> 
        <Route path="/blog" component={Blog} /> 
-      <Route path="/books" component={Books}/> 
-      <Route path="/books1" component={Books1}/>
+       <Route path="/books" component={Books}/> 
+       <Route path="/books1" component={Books1}/> 
+       <Route path="/approach" component={Approach} /> 
+       <Route path="/culture" component={Culture} />
+       <Route path="/team" component={Team}/> 
+       <Route path="/career" component={Career} /> 
+       <Route path="/career1" component={Career1} />
+       <Route path="/career2" component={Career2} />
 
        <Route path="/contact" component={Contact}/>
        <Route path="/home" component={Homepage} />
